@@ -1,0 +1,20 @@
+.home_container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 2fr 1fr 5fr 5fr 3fr;
+}
+#home_header {
+    background-color: aqua;
+}
+#home_title {
+    background-color: blue;
+}
+#slideshow {
+    background-color: yellow;
+}
+#home_text {
+    background-color: green;
+}
+#home_footer {
+    background-color: red;
+}
