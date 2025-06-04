@@ -32,7 +32,7 @@ body{
     text-align: center;
 }
 .logoIMG {
-     height: 7.5vh;
+     height: 55px;
 }
 .navbar {
     align-items: center;
@@ -43,6 +43,7 @@ body{
     display: inline-block;
     background-color: #454545;
     width: 25%;
+    height: 55px;
     font-size: 2rem;
     transition: 0.3s;
     outline-style: solid;
