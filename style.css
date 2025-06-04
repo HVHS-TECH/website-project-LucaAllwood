@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'Gotham'; 
+    src: url('fonts/Gotham-Book.otf');
+}
 body{
     margin: 0;
+    font-size: 16px;
+    font-family: 'Gotham';
 }
 .home_container {
     height: 150vh;
@@ -8,7 +14,7 @@ body{
     grid-template-rows: 110px 1fr 5fr 5fr 3fr;
 }
 #home_header {
-    background-color: aqua;
+    background-color: white;
 }
 #home_title {
     background-color: blue;
@@ -21,4 +27,34 @@ body{
 }
 #home_footer {
     background-color: red;
+}
+.logo {
+    text-align: center;
+}
+.logoIMG {
+     height: 7.5vh;
+}
+.navbar {
+    align-items: center;
+    text-align: center;
+    font-size: 0;
+}
+.navButton {
+    display: inline-block;
+    background-color: #454545;
+    width: 25%;
+    font-size: 2rem;
+    transition: 0.3s;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 1px;
+    color: white;
+}
+.navButton:hover {
+    background-color: #5d5d5d;
+}
+.onPage {
+    background-color: #fbeb5d;
+    pointer-events: none;
+    color: black;
 }
