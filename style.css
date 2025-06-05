@@ -17,13 +17,13 @@ body{
     background-color: white;
 }
 #home_title {
-    background-color: blue;
+    background-color: white;
 }
 #slideshow {
     background-color: yellow;
 }
 #home_text {
-    background-color: green;
+    background-color: white;
 }
 #home_footer {
     background-color: red;
@@ -58,4 +58,16 @@ body{
     background-color: #fbeb5d;
     pointer-events: none;
     color: black;
+}
+.navButton > p {
+    margin: 0;
+}
+
+#home_title h1 {
+    text-align: center;
+}
+#home_text p {
+    font-size: 2em;
+    text-align: center;
+    padding: 0 20px 0 20px;
 }
