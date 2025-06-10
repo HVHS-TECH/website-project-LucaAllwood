@@ -26,7 +26,8 @@ body{
     background-color: white;
 }
 #home_footer {
-    background-color: red;
+    background-color: #454545;
+    color: #c7c7c7
 }
 .logo {
     text-align: center;
@@ -50,6 +51,7 @@ body{
     outline-color: black;
     outline-width: 1px;
     color: white;
+    cursor: pointer;
 }
 .navButton:hover {
     background-color: #5d5d5d;
@@ -58,6 +60,7 @@ body{
     background-color: #fbeb5d;
     pointer-events: none;
     color: black;
+    cursor: default;
 }
 .navButton > p {
     margin: 0;
@@ -70,4 +73,38 @@ body{
     font-size: 2em;
     text-align: center;
     padding: 0 20px 0 20px;
+}
+
+.footer_container_top {
+    width: 85%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+}
+.footer_top {
+    display: inline-block;
+    width: 33%;
+    padding-top: 1rem;
+}
+.footer_top > p {
+    text-align: center;
+    font-size: 1.25rem;
+}
+hr {
+    width: 80%;
+    border: 2px solid ;
+}
+.footer_container_bottom {
+    width: 33%;
+    padding-left: 33%;
+    padding-right: 33%;
+    text-align: center;
+    margin-top: 30px;
+}
+.footer_nav {
+    margin: 0 20px 0 20px;
+    cursor: pointer;
+}
+.footer_onPage {
+    font-weight: bold;
+    cursor: default;
 }
