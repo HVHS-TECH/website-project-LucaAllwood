@@ -104,7 +104,7 @@ body{
 }
 .middle hr {
     flex-shrink: 0;
-    flex-grow: 9;
+    flex-grow: 8;
     width: 10%;
     height: 0;
     border: 2px solid ;
