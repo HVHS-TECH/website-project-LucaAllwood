@@ -8,10 +8,10 @@ body{
     font-family: 'Gotham';
 }
 .home_container {
-    height: 150vh;
+    height: 175vh;
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 110px 1fr 5fr 5fr 3fr;
+    grid-template-rows: 110px 1fr 7fr 5fr 3fr;
 }
 #home_header {
     background-color: white;
@@ -20,7 +20,7 @@ body{
     background-color: white;
 }
 #slideshow {
-    background-color: yellow;
+    background-color: white;
 }
 #home_text {
     background-color: white;
@@ -123,4 +123,30 @@ body{
 .footer_onPage {
     font-weight: bold;
     cursor: default;
+}
+.container {
+    margin: auto;
+    height: 100%;
+    padding: 2rem;
+}
+.slider-wrapper {
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+.slider {
+    display: flex;
+    aspect-ratio: 16 / 5;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+}
+.slider img {
+    flex: 1 0 100%;
+    width: 100%;
+    height: auto;
+    scroll-snap-align: start;
+    object-fit: cover;
 }
