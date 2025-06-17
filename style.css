@@ -7,6 +7,8 @@ body{
     font-size: 16px;
     font-family: 'Gotham';
 }
+
+/******************** Home layout ********************/
 .home_container {
     height: 175vh;
     display: grid;
@@ -29,6 +31,7 @@ body{
     background-color: #454545;
     color: #c7c7c7
 }
+
 .logo {
     text-align: center;
 }
@@ -36,12 +39,11 @@ body{
      height: 55px;
 }
 .navbar {
-    align-items: center;
-    text-align: center;
     font-size: 0;
 }
 .navButton {
     display: inline-block;
+    text-align: center;
     background-color: #454545;
     width: 25%;
     height: 55px;
@@ -52,6 +54,7 @@ body{
     outline-width: 1px;
     color: white;
     cursor: pointer;
+    text-decoration: none;
 }
 .navButton:hover {
     background-color: #5d5d5d;
@@ -74,7 +77,35 @@ body{
     text-align: center;
     padding: 0 20px 0 20px;
 }
+/******************** Slideshow ********************/
+.container {
+    margin: auto;
+    height: 100%;
+    padding: 2rem;
+}
+.slider-wrapper {
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+.slider {
+    display: flex;
+    aspect-ratio: 16 / 5;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0rem 1.5rem 2rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+}
+.slider img {
+    flex: 1 0 100%;
+    width: 100%;
+    height: auto;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
 
+/******************** Footer ********************/
 .footer_container_top {
     width: 85%;
     padding-left: 7.5%;
@@ -124,29 +155,43 @@ body{
     font-weight: bold;
     cursor: default;
 }
-.container {
-    margin: auto;
-    height: 100%;
-    padding: 2rem;
+
+
+/******************** About us layout ********************/
+.about_container {
+    height: 175vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 110px 1fr 9fr 3fr 3fr;
 }
-.slider-wrapper {
-    position: relative;
-    max-width: 48rem;
-    margin: 0 auto;
+#about_header {
+    background-color: white;
+    grid-column: 1 / span 2;
+    grid-row: 1;
 }
-.slider {
-    display: flex;
-    aspect-ratio: 16 / 5;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
-    border-radius: 0.5rem;
+#about_title {
+    background-color: blue;
+    grid-column:  1 / span 2;
+    grid-row: 2;
 }
-.slider img {
-    flex: 1 0 100%;
-    width: 100%;
-    height: auto;
-    scroll-snap-align: start;
-    object-fit: cover;
+#about_quotes {
+    background-color: yellow;
+    grid-row: 3;
+    grid-column: 1;
+}
+#about_main {
+    background-color: green;
+    grid-row: 3;
+    grid-column: 2;
+}
+#about_extra {
+    background-color: red;
+    grid-column:  1 / span 2;
+    grid-row: 4;
+}
+#about_footer {
+    background-color: #454545;
+    grid-column:  1 / span 2;
+    grid-row: 5;
+    color: #c7c7c7
 }
