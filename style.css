@@ -162,7 +162,7 @@ body{
 .about_container {
     height: 175vh;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 110px 1fr 9fr 3fr 3fr;
 }
 #about_header {
@@ -179,9 +179,10 @@ body{
     background-color: yellow;
     grid-row: 3;
     grid-column: 1;
+    display: block;
 }
 #about_main {
-    background-color: green;
+    background-color: white;
     grid-row: 3;
     grid-column: 2;
 }
@@ -195,4 +196,18 @@ body{
     grid-column:  1 / span 2;
     grid-row: 5;
     color: #c7c7c7
+}
+
+#about_quotes p {
+    text-align: center;
+    word-wrap: break-word;
+}
+#about_main p {
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 1.25rem;
+}
+#about_main li {
+    font-size: 1.25rem;
+    margin-top: 1rem;
 }
