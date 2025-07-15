@@ -224,3 +224,56 @@ body{
 #about_extra p {
     margin: 2rem;
 }
+
+/******************** Leadership Page ***********************/
+.lead_container {
+    height: 165vh;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 110px 1fr 4fr 6fr 3fr;
+}
+#lead_header {
+    background-color: red;
+    grid-column: 1 / span 4;
+    grid-row: 1;
+}
+#lead_title {
+    background-color: orange;
+    grid-column:  1 / span 4;
+    grid-row: 2;
+}
+#profile1 {
+    background-color: yellow;
+    grid-row: 3;
+    grid-column: 1;
+    display: inline-block;
+}
+#profile2 {
+    background-color: green;
+    grid-row: 3;
+    grid-column: 2;
+    display: inline-block;
+}
+#profile3 {
+    background-color: blue;
+    grid-row: 3;
+    grid-column: 3;
+    display: inline-block;
+}
+#profile4 {
+    background-color: indigo;
+    grid-row: 3;
+    grid-column: 4;
+    display: inline-block;
+}
+#lead_main {
+    background-color: violet;
+    grid-row: 4;
+    grid-column: 1 / span 4;
+}
+#lead_footer {
+    background-color: #454545;
+    grid-column:  1 / span 4;
+    grid-row: 5;
+    color: #c7c7c7
+}
