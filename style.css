@@ -181,41 +181,30 @@ body{
 
 /******************** About us layout ********************/
 .about_container {
-    height: 165vh;
+    height: 150vh;
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 110px 1fr 9fr 1fr 180px;
+    grid-template-columns: auto;
+    grid-template-rows: 110px 1fr 6fr 3fr 180px;
 }
 #about_header {
     background-color: white;
-    grid-column: 1 / span 2;
     grid-row: 1;
 }
 #about_title {
     background-color: white;
-    grid-column:  1 / span 2;
     grid-row: 2;
 }
 #about_quotes {
     background-color: white;
-    grid-row: 3;
-    grid-column: 1;
+    grid-row: 4;
     display: block;
 }
 #about_main {
     background-color: white;
     grid-row: 3;
-    grid-column: 2;
-}
-#about_extra {
-    background-color: white;
-    grid-column:  1 / span 2;
-    grid-row: 4;
-    font-size: 1.25rem;
 }
 #about_footer {
     background-color: #454545;
-    grid-column:  1 / span 2;
     grid-row: 5;
     color: #c7c7c7;
 }
@@ -229,19 +218,20 @@ body{
     text-align: center;
     word-wrap: break-word;
     font-size: 1.25rem;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 #about_main li {
     font-size: 1.25rem;
     margin-top: 0.9rem;
 }
 .quote {
+    font-size: 1rem;
     font-style: italic;
-    margin-bottom: 3.2rem;
+    margin-bottom: 2rem;
     margin-left: 1rem;
     margin-right: 1rem;
-}
-#about_extra p {
-    margin: 2rem;
+    display: inline-block;
 }
 
 /******************** Leadership Page ***********************/
