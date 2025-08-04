@@ -250,6 +250,7 @@ body{
 #home_footer {
     background-color: blue;
     color: black;
+    padding-bottom: 20px;
 }
 .logo {
     width: 100%;
@@ -268,6 +269,29 @@ body{
 }
 .phone_header {
     display: block;
+}
+.footer_top {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.middle {
+    display: inline;
+    width: 300px;
+}
+.facebook {
+    display: block;
+    justify-self: center;
+}
+hr {
+    display: none;
+}
+.footer_nav {
+    display: block;
+    margin: 20px 20px 0 20px;
+    cursor: pointer;
+    color: #c7c7c7;
+    text-decoration: none;
 }
 }
 
