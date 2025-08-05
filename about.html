@@ -9,6 +9,7 @@
  <div class="about_container">
     <header id="about_header">
         <div class="logo">
+            <button class="openbtn" onclick="openNav()">&#9776;</button>
             <img src="images/logo2.png" class="logoIMG" alt="The St John crest">
         </div>
         <div class="navbar">
@@ -25,14 +26,26 @@
                Sign-up
           </a>
         </div>
+        <div class="phone_header">
         <div id="mySidepanel" class="sidepanel">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="">Home</a>
-            <a href="">About Us</a>
-            <a href="">Leadership Team</a>
-            <a href="">Sign-up</a>
+            <a href="index.html">Home</a>
+            <a href="#" class="onPage">About Us</a>
+            <a href="leadership.html">Leadership Team</a>
+            <a href="sign.html">Sign-up</a>
         </div>
+    </div>
     </header>
+    <script>
+        function openNav() {
+  document.getElementById("mySidepanel").style.width = "250px";
+}
+
+/* Set the width of the sidebar to 0 (hide it) */
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
+    </script>
     <div id="about_title">
         <h1>
             About us
