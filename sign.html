@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>St John Youth - Petone</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+</head>
+<body>
+ <div class="sign_container">
+    <header id="sign_header">
+        <div class="logo">
+            <button class="openbtn" onclick="openNav()">&#9776;</button>
+            <img src="images/logo2.png" class="logoIMG" alt="The St John crest">
+        </div>
+        <div class="navbar">
+          <a class="navButton onPage">
+               Home
+          </a>
+          <a class="navButton" href="about.html">
+               About Us
+          </a>
+          <a class="navButton" href="leadership.html">
+               Leadership Team
+          </a>
+          <a class="navButton" href="sign.html">
+               Sign-up
+          </a>
+        </div>
+        <div class="phone_header">
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html" class="onPage">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="leadership.html">Leadership Team</a>
+            <a href="#">Sign-up</a>
+        </div>
+    </div>
+    </header>
+    <script>
+        function openNav() {
+  document.getElementById("mySidepanel").style.width = "250px";
+}
+
+/* Set the width of the sidebar to 0 (hide it) */
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
+    </script>
+    <div id="sign_title">
+        <h1>
+            St John Youth - Petone Division
+        </h1>
+    </div>
+    <div id="">
+
+    </div>
+    <footer id="sign_footer">
+        <div class="footer_container_top">
+            <div class="footer_top">
+                <p>Phone Number:</p>
+                <p class="sndLine">(+64) 021 732 3416</p>
+            </div>
+            <div class="footer_top">
+                <p>Email:</p>
+                <p class="sndLine">Petone@stjohnyouth.org</p>
+            </div>
+            <div class="footer_top">
+                <p>Address:</p>
+                <p class="sndLine">40 Mitchell St, Epuni</p>
+            </div>
+        </div>
+        <div class="middle">
+          <div>
+             <img src="images/facebook.png" alt="The Facebook logo" class="facebook">
+          </div>
+          <hr>
+          <div></div>
+        </div>
+        <div class="footer_container_bottom">
+            <a class="footer_nav footer_onPage">Home</a>
+            <a class="footer_nav" href="about.html">About Us</a>
+            <a class="footer_nav" href="leadership.html">Leadership Team</a>
+            <a class="footer_nav" href="sign.html">Sign-up</a>
+        </div>
+    </footer>
+ </div>
+</body>
+</html>
