@@ -558,33 +558,33 @@ hr {
     grid-template-rows: auto auto auto auto 180px;
 }
 #sign_header {
-    background-color: red;
+    background-color: white;
     grid-column: 1 / span 2;
     grid-row: 1;
 }
 #sign_title {
-    background-color: orange;
+    background-color: white;
     grid-column: 1 / span 2;
     grid-row: 2;
 }
 #sign_info{
     text-align: left;
-    background-color: yellow;
+    background-color: white;
     grid-column: 1;
     grid-row: 3;
 }
 #sign_image{
-    background-color: green;
+    background-color: white;
     grid-column: 2;
     grid-row: 3;
 }
-#sign_forum {
-    background-color: blue;
+#sign_form {
+    background-color: white;
     grid-column: 1 / span 2;
     grid-row: 4;
 }
 #sign_footer {
-    background-color: violet;
+    background-color: #454545;
     grid-column: 1 / span 2;
     grid-row: 5;
     color: #c7c7c7;
@@ -595,4 +595,36 @@ hr {
 }
 .sign_img {
     width: 500px;
+}
+
+/***************** Sign-up Form ************/
+
+#sign_form {
+  border-radius: 5px;
+  background-color: #888;
+  padding: 20px;
+  margin: 20px;
+}
+input[type="text"], input[type="number"], select, textarea {
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+  background-color: #fbeb5d;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+textarea {
+    height: 200px;
 }

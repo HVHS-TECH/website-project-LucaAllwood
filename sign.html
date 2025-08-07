@@ -13,7 +13,7 @@
             <img src="images/logo2.png" class="logoIMG" alt="The St John crest">
         </div>
         <div class="navbar">
-          <a class="navButton onPage">
+          <a class="navButton" href="index.html">
                Home
           </a>
           <a class="navButton" href="about.html">
@@ -22,7 +22,7 @@
           <a class="navButton" href="leadership.html">
                Leadership Team
           </a>
-          <a class="navButton" href="sign.html">
+          <a class="navButton onPage" href="#">
                Sign-up
           </a>
         </div>
@@ -81,8 +81,21 @@ function closeNav() {
     <div id="sign_image">
         <img class="sign_img" src="images/sign_img.png" alt="St John worker in front of two people.">
     </div>
-    <div id="sign_forum">
-
+    <div id="sign_form">
+        <h2>Sign-up form</h2>
+        <label for="c-name">Cadet's full name</label>
+        <input type="text" id="c-name" name="cadetname" placeholder="Cadet's name here (e.g. Matthew Johnson)">
+        <label for="c-age">Cadet's age</label>
+        <input type="number" id="c-age" name="cadetage" min="6" max="18" placeholder="Must be between 6 and 18">
+        <label for="g-name">Guardian's full name</label>
+        <input type="text" id="g-name" name="guardianname" placeholder="Guardian's name here (e.g. Margaret Evans)">
+        <label for="email">Guardian's email</label>
+        <input type="text" id="email" name="email" placeholder="Guardian's email here (e.g. Margaretevans@gmail.com)">
+        <label for="pnumber">Guardian's phone number</label>
+        <input type="text" id="pnumber" name="phonenumber" placeholder="Guardian's phone number here (e.g. 021 735 2239)">
+        <label for="extra">Extra info</label>
+        <textarea id="extra" name="extrainfo" placeholder="Any extra info (e.g. disabilities, questions, allergies, etc)"></textarea>
+        <input type="submit" value="Submit">
     </div>
     <footer id="sign_footer">
         <div class="footer_container_top">
