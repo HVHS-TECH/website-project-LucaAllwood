@@ -3,14 +3,14 @@
 <head>
     <title>St John Youth - Petone</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="/images/sjyLogo.png">
 </head>
 <body>
  <div class="sign_container">
     <header id="sign_header">
         <div class="logo">
             <button class="openbtn" onclick="openNav()">&#9776;</button>
-            <img src="images/logo2.png" class="logoIMG" alt="The St John crest">
+            <img src="images/sjyLogo.png" class="logoIMG" alt="The St John crest">
         </div>
         <div class="navbar">
           <a class="navButton" href="index.html">
@@ -29,10 +29,10 @@
         <div class="phone_header">
         <div id="mySidepanel" class="sidepanel">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="index.html" class="onPage">Home</a>
+            <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
             <a href="leadership.html">Leadership Team</a>
-            <a href="#">Sign-up</a>
+            <a href="#" class="onPage">Sign-up</a>
         </div>
     </div>
     </header>
@@ -83,6 +83,7 @@ function closeNav() {
     </div>
     <div id="sign_form">
         <h2>Sign-up form</h2>
+        <form action="mailto:21247la@hvhs.school.nz" method="post" enctype="text/plain">
         <label for="c-name">Cadet's full name</label>
         <input type="text" id="c-name" name="cadetname" placeholder="Cadet's name here (e.g. Matthew Johnson)">
         <label for="c-age">Cadet's age</label>
@@ -90,12 +91,13 @@ function closeNav() {
         <label for="g-name">Guardian's full name</label>
         <input type="text" id="g-name" name="guardianname" placeholder="Guardian's name here (e.g. Margaret Evans)">
         <label for="email">Guardian's email</label>
-        <input type="text" id="email" name="email" placeholder="Guardian's email here (e.g. Margaretevans@gmail.com)">
+        <input type="email" id="email" name="email" placeholder="Guardian's email here (e.g. Margaretevans@gmail.com)">
         <label for="pnumber">Guardian's phone number</label>
         <input type="text" id="pnumber" name="phonenumber" placeholder="Guardian's phone number here (e.g. 021 735 2239)">
         <label for="extra">Extra info</label>
         <textarea id="extra" name="extrainfo" placeholder="Any extra info (e.g. disabilities, questions, allergies, etc)"></textarea>
         <input type="submit" value="Submit">
+        </form>
     </div>
     <footer id="sign_footer">
         <div class="footer_container_top">
@@ -120,10 +122,10 @@ function closeNav() {
           <div></div>
         </div>
         <div class="footer_container_bottom">
-            <a class="footer_nav footer_onPage">Home</a>
+            <a class="footer_nav">Home</a>
             <a class="footer_nav" href="about.html">About Us</a>
             <a class="footer_nav" href="leadership.html">Leadership Team</a>
-            <a class="footer_nav" href="sign.html">Sign-up</a>
+            <a class="footer_nav footer_onPage" href="sign.html">Sign-up</a>
         </div>
     </footer>
  </div>
