@@ -6,12 +6,17 @@
     <link rel="icon" type="image/x-icon" href="/images/sjyLogo.png">
 </head>
 <body>
+
+    <!-- Container for CSS Grid -->
  <div class="home_container">
+
+    <!-- Header -->
     <header id="home_header">
         <div class="logo">
             <button class="openbtn" onclick="openNav()">&#9776;</button>
             <img src="images/sjyLogo.png" class="logoIMG" alt="The St John crest">
         </div>
+        <!-- PC Nav Bar -->
         <div class="navbar">
           <a class="navButton onPage" href="#">
                Home
@@ -26,6 +31,7 @@
                Sign-up
           </a>
         </div>
+        <!-- Phone Nav bar -->
         <div class="phone_header">
         <div id="mySidepanel" class="sidepanel">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -46,11 +52,15 @@ function closeNav() {
   document.getElementById("mySidepanel").style.width = "0";
 }
     </script>
+
+    <!-- Title -->
     <div id="home_title">
         <h1>
             St John Youth - Petone Division
         </h1>
     </div>
+
+    <!-- Slideshow -->
     <div id="slideshow">
         <div class="container">
         <div class="slide-wrapper">
@@ -62,6 +72,8 @@ function closeNav() {
         </div>
     </div>
     </div>
+
+    <!-- Main text -->
     <div id="home_text">
         <p>
         St John Youth Petone is a vibrant and dynamic division of the St John Youth program, 
@@ -73,6 +85,8 @@ function closeNav() {
         St John Youth Petone and be a part of a positive and impactful journey!
         </p>
     </div>
+
+    <!-- Footer -->
     <footer id="home_footer">
         <div class="footer_container_top">
             <div class="footer_top">
@@ -95,11 +109,16 @@ function closeNav() {
           <hr>
           <div></div>
         </div>
+        <!-- Footer quick links -->
         <div class="footer_container_bottom">
-            <a class="footer_nav footer_onPage">Home</a>
+            <a class="footer_nav footer_onPage" href="#">Home</a>
             <a class="footer_nav" href="about.html">About Us</a>
             <a class="footer_nav" href="leadership.html">Leadership Team</a>
             <a class="footer_nav" href="sign.html">Sign-up</a>
+        </div>
+        <div class="references">
+            <p>Images on this page were taken from:</p>
+            <a href="https://www.stjohn.org.nz/news--info/image-gallery/">St John Youth image-gallery</a>
         </div>
     </footer>
  </div>

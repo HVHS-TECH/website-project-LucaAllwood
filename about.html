@@ -6,12 +6,17 @@
     <link rel="icon" type="image/x-icon" href="/images/sjyLogo.png">
 </head>
 <body>
+    
+    <!-- Container for CSS Grid -->
  <div class="about_container">
+
+    <!-- Header -->
     <header id="about_header">
         <div class="logo">
             <button class="openbtn" onclick="openNav()">&#9776;</button>
             <img src="images/sjyLogo.png" class="logoIMG" alt="The St John crest">
         </div>
+        <!-- PC Nav bar -->
         <div class="navbar">
           <a class="navButton" href="index.html">
                Home
@@ -26,6 +31,7 @@
                Sign-up
           </a>
         </div>
+        <!-- Phone Nav bar -->
         <div class="phone_header">
         <div id="mySidepanel" class="sidepanel">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -36,6 +42,7 @@
         </div>
     </div>
     </header>
+    <!-- Script for phone Nav bar -->
     <script>
         function openNav() {
   document.getElementById("mySidepanel").style.width = "250px";
@@ -46,12 +53,15 @@ function closeNav() {
   document.getElementById("mySidepanel").style.width = "0";
 }
     </script>
+
+    <!-- Title -->
     <div id="about_title">
         <h1>
             About us
         </h1>
     </div>
     
+    <!-- Main text -->
     <div id="about_main">
          <p>At St John Youth Petone, we are committed to empowering young individuals,
             ages 6 to 18, by providing them with valuable life skills, leadership training,
@@ -76,6 +86,8 @@ function closeNav() {
             </li>
         </ul>
     </div>
+
+    <!-- Quotes -->
     <div id="about_quotes">
         <div class="quote">
         <h2>"I've learnt how to lead others way better!"</h2>
@@ -94,6 +106,8 @@ function closeNav() {
         <p>- Cadet</p>
         </div>
     </div>
+
+    <!-- Footer -->
     <footer id="about_footer">
         <div class="footer_container_top">
             <div class="footer_top">
@@ -116,9 +130,10 @@ function closeNav() {
           <hr>
           <div></div>
         </div>
+        <!-- Footer quick links -->
         <div class="footer_container_bottom">
             <a class="footer_nav" href="index.html">Home</a>
-            <a class="footer_nav footer_onPage">About Us</a>
+            <a class="footer_nav footer_onPage" href="#">About Us</a>
             <a class="footer_nav" href="leadership.html">Leadership Team</a>
             <a class="footer_nav" href="sign.html">Sign-up</a>
         </div>

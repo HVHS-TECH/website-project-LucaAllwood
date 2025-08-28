@@ -6,12 +6,17 @@
     <link rel="icon" type="image/x-icon" href="/images/sjyLogo.png">
 </head>
 <body>
+
+    <!-- Container for CSS Grid -->
  <div class="sign_container">
+
+    <!-- Header -->
     <header id="sign_header">
         <div class="logo">
             <button class="openbtn" onclick="openNav()">&#9776;</button>
             <img src="images/sjyLogo.png" class="logoIMG" alt="The St John crest">
         </div>
+        <!-- PC Nav bar -->
         <div class="navbar">
           <a class="navButton" href="index.html">
                Home
@@ -26,6 +31,7 @@
                Sign-up
           </a>
         </div>
+        <!-- Phone Nav bar -->
         <div class="phone_header">
         <div id="mySidepanel" class="sidepanel">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -36,6 +42,7 @@
         </div>
     </div>
     </header>
+    <!-- Script for phone Nav bar -->
     <script>
         function openNav() {
   document.getElementById("mySidepanel").style.width = "250px";
@@ -46,11 +53,15 @@ function closeNav() {
   document.getElementById("mySidepanel").style.width = "0";
 }
     </script>
+
+    <!-- Title -->
     <div id="sign_title">
         <h1>
             Sign-up
         </h1>
     </div>
+
+    <!-- Main text -->
     <div id="sign_info">
         <h2>
             Join St John Youth Petone
@@ -78,27 +89,33 @@ function closeNav() {
             </li>
         </ul>
     </div>
+
+    <!-- Image on side -->
     <div id="sign_image">
         <img class="sign_img" src="images/sign_img.png" alt="St John worker in front of two people.">
     </div>
+
+    <!-- Sign-up form -->
     <div id="sign_form">
         <h2>Sign-up form</h2>
         <form action="mailto:21247la@hvhs.school.nz" method="post" enctype="text/plain">
-        <label for="c-name">Cadet's full name</label>
+        <label for="c-name">Cadet's full name</label> <!-- Enter name -->
         <input type="text" id="c-name" name="cadetname" placeholder="Cadet's name here (e.g. Matthew Johnson)">
-        <label for="c-age">Cadet's age</label>
+        <label for="c-age">Cadet's age</label> <!-- Enter age -->
         <input type="number" id="c-age" name="cadetage" min="6" max="18" placeholder="Must be between 6 and 18">
-        <label for="g-name">Guardian's full name</label>
+        <label for="g-name">Guardian's full name</label> <!-- Enter Guardian's name -->
         <input type="text" id="g-name" name="guardianname" placeholder="Guardian's name here (e.g. Margaret Evans)">
-        <label for="email">Guardian's email</label>
+        <label for="email">Guardian's email</label> <!-- Enter Guardian's email -->
         <input type="email" id="email" name="email" placeholder="Guardian's email here (e.g. Margaretevans@gmail.com)">
-        <label for="pnumber">Guardian's phone number</label>
+        <label for="pnumber">Guardian's phone number</label> <!-- Enter Guardian's phone number -->
         <input type="text" id="pnumber" name="phonenumber" placeholder="Guardian's phone number here (e.g. 021 735 2239)">
-        <label for="extra">Extra info</label>
+        <label for="extra">Extra info</label> <!-- Enter extra info -->
         <textarea id="extra" name="extrainfo" placeholder="Any extra info (e.g. disabilities, questions, allergies, etc)"></textarea>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit"> <!-- Submit -->
         </form>
     </div>
+
+    <!-- Footer -->
     <footer id="sign_footer">
         <div class="footer_container_top">
             <div class="footer_top">
@@ -121,11 +138,16 @@ function closeNav() {
           <hr>
           <div></div>
         </div>
+        <!-- Footer quick links -->
         <div class="footer_container_bottom">
-            <a class="footer_nav">Home</a>
+            <a class="footer_nav" href="index.html">Home</a>
             <a class="footer_nav" href="about.html">About Us</a>
             <a class="footer_nav" href="leadership.html">Leadership Team</a>
-            <a class="footer_nav footer_onPage" href="sign.html">Sign-up</a>
+            <a class="footer_nav footer_onPage" href="#">Sign-up</a>
+        </div>
+        <div class="references">
+            <p>Images on this page were taken from:</p>
+            <a href="https://www.stjohn.org.nz/news--info/image-gallery/">St John Youth image-gallery</a>
         </div>
     </footer>
  </div>

@@ -6,12 +6,17 @@
     <link rel="icon" type="image/x-icon" href="/images/sjyLogo.png">
 </head>
 <body>
+
+    <!-- Container for CSS Grid -->
  <div class="lead_container">
+
+    <!-- Header -->
     <header id="lead_header">
         <div class="logo">
             <button class="openbtn" onclick="openNav()">&#9776;</button>
             <img src="images/sjyLogo.png" class="logoIMG" alt="St John Crest">
         </div>
+        <!-- PC Nav bar -->
         <div class="navbar">
           <a class="navButton" href="index.html">
                Home
@@ -26,6 +31,7 @@
                Sign-up
           </a>
         </div>
+        <!-- Phone Nav bar -->
         <div class="phone_header">
         <div id="mySidepanel" class="sidepanel">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -36,6 +42,7 @@
         </div>
     </div>
     </header>
+    <!-- Script for phone Nav bar -->
     <script>
         function openNav() {
   document.getElementById("mySidepanel").style.width = "250px";
@@ -46,11 +53,17 @@ function closeNav() {
   document.getElementById("mySidepanel").style.width = "0";
 }
     </script>
+
+    <!-- Title -->
     <div id="lead_title">
         <h1>
             Our Leadership Team
         </h1>
     </div>
+
+    <!-- Profile cards -->
+
+    <!-- Sarah Edwards profile -->
     <div id="profile1">
         <div class="card">
         <img src="images/Sarah_edwards.png" alt="Avatar of Sarah Edwards">
@@ -60,6 +73,7 @@ function closeNav() {
         </div>
         </div>
     </div>
+    <!-- Violet Gordon profile -->
     <div id="profile2">
         <div class="card">
         <img src="images/Violet_gordon.png" alt="Avatar of Violet Gordon">
@@ -69,6 +83,7 @@ function closeNav() {
         </div>
         </div>
     </div>
+    <!-- David Nelson profile -->
     <div id="profile3">
         <div class="card">
         <img src="images/David_nelson.png" alt="Avatar of David Nelson">
@@ -78,6 +93,7 @@ function closeNav() {
         </div>
         </div>
     </div>
+    <!-- Lara Jones profile -->
     <div id="profile4">
         <div class="card">
         <img src="images/Lara_jones.png" alt="Avatar of Lara Jones">
@@ -87,6 +103,8 @@ function closeNav() {
         </div>
         </div>
     </div>
+
+    <!-- Main text -->
     <div id="lead_main">
         <p>
             At St John Youth Petone, we are proud to have a dedicated and passionate leadership team
@@ -100,6 +118,8 @@ function closeNav() {
               making them an integral part of our vibrant community.
         </p>
     </div>
+
+    <!-- Footer -->
     <footer id="lead_footer">
         <div class="footer_container_top">
             <div class="footer_top">
@@ -122,11 +142,33 @@ function closeNav() {
           <hr>
           <div></div>
         </div>
+        <!-- footer quick links -->
         <div class="footer_container_bottom">
             <a class="footer_nav" href="index.html">Home</a>
             <a class="footer_nav" href="about.html">About Us</a>
-            <a class="footer_nav footer_onPage">Leadership Team</a>
+            <a class="footer_nav footer_onPage" href="#">Leadership Team</a>
             <a class="footer_nav" href="sign.html">Sign-up</a>
+        </div>
+        <div class="references">
+            <p>Images on this page were taken from:</p>
+            <p class="link">Photo by <a href="https://unsplash.com/@ibidsy?utm_content=creditCopyText&utm_medium=referral&utm
+                _source=unsplash">Clay Elliot</a> on <a href="https://unsplash.com/photos/woman-in-red-cardigan-
+                smiling-mpDV4xaFP8c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </p>
+            <p class="link">Photo by <a href="https://unsplash.com/@fresh_studio?utm_content=creditCopyText&utm_medium=referral
+                &utm_source=unsplash">Zoran Borojevic</a> on <a href="https://unsplash.com/photos/woman-in-black-leather-jacket
+                -4BG2yKyCaWg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </p>
+            <p class="link">Photo by <a href="https://unsplash.com/@ibidsy?utm_content=creditCopyText&utm_medium=referral&utm_
+                source=unsplash">Clay Elliot</a> on <a href="https://unsplash.com/photos/man-in-gray-suit-jacket-standing-beside
+                -brown-brick-wall-HfMCgqOLTyM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </p>
+            <p class="link">Photo by <a href="https://unsplash.com/@jakenackos?utm_content=creditCopyText&utm_medium=referral&utm
+                _source=unsplash">Jake Nackos</a> on <a href="https://unsplash.com/photos/woman-in-white-crew-neck-shirt-smiling-
+                IF9TK5Uy-KI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </p>
+            
+      </a>
         </div>
     </footer>
  </div>

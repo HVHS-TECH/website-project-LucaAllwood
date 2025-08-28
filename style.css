@@ -32,7 +32,7 @@ body{
     height: auto;
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto 180px;
+    grid-template-rows: auto auto auto auto auto;
 }
 #home_header {
     background-color: white;
@@ -165,6 +165,20 @@ body{
     padding-right: 33%;
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 20px;
+}
+.references {
+    width: 100%;
+    text-align: center;
+    color:  #9a9a9a;
+    margin-bottom: 20px;
+}
+.references a {
+    color:  #9a9a9a;
+}
+.link {
+    display: inline-block;
+    margin-right: 10px;
 }
 .footer_nav {
     margin: 0 20px 0 20px;
@@ -284,7 +298,7 @@ hr {
     height: auto;
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto 180px;
+    grid-template-rows: auto auto auto auto auto;
 }
 #about_header {
     background-color: white;
@@ -392,7 +406,7 @@ hr {
     height: auto;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: auto auto auto auto 180px;
+    grid-template-rows: auto auto auto auto auto;
 }
 #lead_header {
     background-color: white;
@@ -554,7 +568,7 @@ hr {
     height: auto;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: auto auto auto auto 180px;
+    grid-template-rows: auto auto auto auto auto;
 }
 #sign_header {
     background-color: white;
