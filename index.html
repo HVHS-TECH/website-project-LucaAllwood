@@ -4,6 +4,7 @@
     <title>St John Youth - Petone</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="icon" type="image/x-icon" href="/images/sjyLogo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
@@ -12,8 +13,8 @@
 
     <!-- Header -->
     <header id="home_header">
+      <button class="openbtn" onclick="openNav()">&#9776;</button>
         <div class="logo">
-            <button class="openbtn" onclick="openNav()">&#9776;</button>
             <a href="#">
             <img src="images/sjyLogo.png" class="logoIMG" alt="The St John crest">
             </a>
@@ -46,7 +47,7 @@
     </header>
     <script>
         function openNav() {
-  document.getElementById("mySidepanel").style.width = "250px";
+  document.getElementById("mySidepanel").style.width = "500px";
 }
 
 /* Set the width of the sidebar to 0 (hide it) */
@@ -106,8 +107,8 @@ function closeNav() {
         </div>
         <div class="middle">
           <div>
-            <a href="https://www.facebook.com">
-             <img src="images/facebook.png" alt="The Facebook logo" class="facebook">
+            <a href="https://www.facebook.com" class="facebook">
+             <img src="images/facebook.png" alt="The Facebook logo">
             </a>
           </div>
           <hr>

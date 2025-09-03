@@ -204,7 +204,7 @@ body{
 /******************** Phone Nav Bar ********************/
 .sidepanel {
     height: 30rem;
-    width: auto;
+    width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -234,7 +234,7 @@ body{
   margin-left: 6.25rem;
 }
 .openbtn {
-  font-size: 2.5rem;
+  font-size: 5rem;
   cursor: pointer;
   background-color: #818181;
   color: white;
@@ -251,7 +251,7 @@ body{
 
 /******************** Home page phone layout *************/
 @media screen and (max-width: 900px) {
-body{
+body {
     margin: 0;
     font-size: 32px;
     font-family: 'Gotham';
@@ -269,17 +269,17 @@ body{
 .footer_top > p {
     font-size: 2.5rem;
 }
-.logo {
-    width: 100%;
+.references {
+    font-size: 2.5rem;
 }
 .logoIMG {
     display: inline-block;
     text-align: center;
+    height: 10rem;
 }
 .openbtn {
     display: block;
-    float: left;
-    margin: 0.625rem;
+    margin: 1.25rem;
 }
 .navbar {
     display: none;
