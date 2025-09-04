@@ -96,7 +96,7 @@ body{
     text-align: center;
 }
 #home_text p {
-    font-size: 1.5em;
+    font-size: 1.25em;
     text-align: center;
     padding: 0 20px 0 20px;
 }
@@ -472,7 +472,7 @@ hr {
     background-color: white;
     grid-row: 4;
     grid-column: 1 / span 4;
-    font-size: 1.5em;
+    font-size: 1.25em;
     text-align: center;
     padding: 0 20px 0 20px;
 }
@@ -610,13 +610,12 @@ hr {
     grid-column: 1;
     grid-row: 3;
     padding: 0 0 0 20px;
-    font-size: 1em;
+    font-size: 1.25em;
 }
 #sign_image{
     background-color: white;
     grid-column: 2;
     grid-row: 3;
-    padding: 0 20px 0 0;
 }
 #sign_form {
     background-color: white;
@@ -635,6 +634,7 @@ hr {
     margin-left: 20px;
 }
 .sign_img {
+    margin-top: 75px;
     width: 500px;
     border-radius: 10px;
 }
