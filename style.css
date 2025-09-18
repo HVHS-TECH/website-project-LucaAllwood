@@ -508,7 +508,8 @@ hr {
     font-size: 1em;
 }
 .card > img {
-    width: 100%;
+    width: 267px;
+    height: 267px;
 }
 .card:hover {
     box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
