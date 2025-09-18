@@ -166,6 +166,10 @@ body{
     height: 0;
     border: 2px solid ;
 }
+.middle img {
+    width: 64px;
+    width: 64px;
+}
 .footer_container_bottom {
     width: 33%;
     padding-left: 33%;
