@@ -442,6 +442,8 @@ hr {
 }
 
 /************************************************* Leadership Page **********************************************************/
+
+/******************** leadership team layout *********************/
 .lead_container {
     height: auto;
     display: grid;
@@ -501,6 +503,7 @@ hr {
     color: #dedede;
 }
 
+/******************** leadership team profiles *********************/
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
@@ -522,6 +525,7 @@ hr {
   padding: 2px 16px;
 }
 
+/******************** leadership team phone layout *********************/
 @media screen and (max-width: 900px) {
 .lead_container {
     height: auto;
@@ -561,7 +565,7 @@ hr {
     padding-bottom: 20px;
 }
 .card {
-    width: 200px;
+    width: auto;
     margin-bottom: 20px;
 }
 .logo {
@@ -652,6 +656,7 @@ hr {
     color: #dedede;
 }
 
+/******************** Sign-up text *********************/
 #sign_info * {
     margin-left: 20px;
 }
@@ -697,6 +702,8 @@ input[type=submit]:hover {
 textarea {
     height: 200px;
 }
+
+/******************** Sign-up phone layout *********************/
 @media screen and (max-width: 900px) {
 .sign_container {
     height: auto;
